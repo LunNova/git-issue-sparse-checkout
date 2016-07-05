@@ -1,0 +1,8 @@
+# git config core.sparseCheckout true
+# move this file to .git/info/sparse-checkout
+
+# Exclude the excluded folder
+!/excluded-folder/*
+
+# Include everything else
+/*
